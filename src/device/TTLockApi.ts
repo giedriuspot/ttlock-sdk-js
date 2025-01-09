@@ -279,7 +279,7 @@ export abstract class TTLockApi extends EventEmitter {
    */
   protected async audioManageCommand(newValue?: AudioManage.TURN_ON | AudioManage.TURN_OFF, aesKey?: Buffer): Promise<AudioManage.TURN_ON | AudioManage.TURN_OFF> {
     if(1==1) // temp disable audio comands
-      return;
+      return 1;
     if (typeof aesKey == "undefined") {
       if (this.privateData.aesKey) {
         aesKey = this.privateData.aesKey;
