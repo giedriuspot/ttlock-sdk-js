@@ -8,6 +8,18 @@ The goal of this project is to make a partial JavaScript port of the TTLock Andr
 
 Feeling generous and want to support my work, here is [my PayPal link](https://paypal.me/kind3r).  
 
+## 10 Digit decode table
+- 0=68
+- 1=69
+- 2=70
+- 3=71
+- 4=64
+- 5=65
+- 6=66
+- 7=67
+- 8=76
+- 9=77
+
 ## Requirements
 - node.js v12 or newer
 - a bluetooth adapter on any platform* that [@abandonware/noble](https://github.com/abandonware/noble#installation) works on
